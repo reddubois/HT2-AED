@@ -1,6 +1,7 @@
 package com.uvg.main;
 
 import java.io.*;
+import java.util.ArrayList;
 
 public class Main {
 
@@ -18,6 +19,7 @@ public class Main {
     int n2 ;
     int resultado = 0;
     boolean bandera = true;
+    ArrayList N = new ArrayList();
     
 		// Vamos a recuperar el documento con la expresión posfix para leerlo.
     File expresion = new File("datos.txt");
